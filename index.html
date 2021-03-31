@@ -3,7 +3,7 @@
     <head>
         <title>Prototype</title>
         <meta charset="utf-8">
-        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -19,11 +19,12 @@
             <a class="navbar-brand" >
                 <img src="./images/logo.jpg" alt="Logo" width="90px" height="50px">
             </a>
-
+            
             <!--Navbar Search Bar-->
             <form class="form-inline" action="#" style="width:300px;">
                 <input type="search" class="form-control" placeholder="Search by product name......" style="width:300px;">
             </form>
+
             <!--Navbar Navlinks-->
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -42,6 +43,7 @@
                     <a class="nav-link text-muted" href="#" style="margin-right:8px;">Blog</a>
                 </li>
             </ul>
+            
             <!--Navbar Icons-->
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -59,6 +61,8 @@
                     </a>
                 </li>
             </ul>
+
+            
         </header>
         <!--Navbar End-->
 
@@ -412,15 +416,48 @@
                         <p>5.0 <i class="fab fa-canadian-maple-leaf text-warning"></i></p>
                     </div>
                 </div>
+
+                <!--Pagination-->
+                <div class="container" >
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a href="#" class="page-link"><i class="fas fa-arrow-left"></i></a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark bg-warning">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark">...</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link text-dark">10</a>
+                        </li>
+                        <li class="page-item active">
+                            <a href="#" class="page-link bg-light text-dark"><i class="fas fa-arrow-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
                 
             </div>
         </main>
         <!--Main Content Section End-->
-        
+
         <!--Footer Start-->
-        
         <footer class="jumbotron jumbotron-fluid bg-dark" style="margin-bottom:0">
             <div id="footer-container">
+                <!--Footer NavLinks-->
                 <ul class="nav">
                     <li class="nav-item">
                         <a href="#" class="nav-link text-light">About Us</a>
@@ -441,6 +478,7 @@
 
                 <hr class="bg-light">
 
+                <!--Footer Section-->
                 <div class="footer-section">
                     <a class="navbar-brand" >
                         <img src="./images/logo.jpg" alt="Logo" width="150px" height="80px" style="border-radius: 10px;">
@@ -460,10 +498,9 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </footer>
-
+        <!--Footer End-->
 
     </body>
 </html>
